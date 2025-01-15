@@ -29,9 +29,9 @@ Os testes de CRUD foram realizados com **Insomnia**, testes E2E com **Jest**, do
 
 ## Blog Pessoal
 
-![<Swagger-postagem>](https://imgur.com/ZMhnnuS)
-![<Swagger-temas>](https://imgur.com/Z0z8zJt)
-![<Swagger-usuário>](https://imgur.com/gqZolnd)
+![<Swagger-postagem>](https://i.imgur.com/ZMhnnuS.png)
+![<Swagger-temas>](https://i.imgur.com/Z0z8zJt.png)
+![<Swagger-usuário>](https://i.imgur.com/gqZolnd.png)
 
 ---
 
