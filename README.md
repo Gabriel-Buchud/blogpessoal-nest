@@ -1,73 +1,39 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Blog Pessoal - Backend
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+Este projeto foi desenvolvido durante o Bloco 2 do Bootcamp da **Generation Brasil**.
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+---
 
-## Description
+## Link da Documentação Swagger
+[Documentação Swagger](https://blogpessoal-fkop.onrender.com/swagger)
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+---
 
-## Installation
+## Descrição
+Este é um projeto de backend para um blog pessoal, implementado com **TypeScript** e **NestJS**, integrado a um banco de dados **MySQL**. A segurança e autenticação foram configuradas utilizando **Passport Local Strategy**, **JWT Strategy** e **Bcrypt**. 
 
-```bash
-$ npm install
-```
+Os testes de CRUD foram realizados com **Insomnia**, testes E2E com **Jest**, documentação com **Swagger**, e o deploy foi feito na **Render**.
 
-## Running the app
+---
 
-```bash
-# development
-$ npm run start
+## Tecnologias Utilizadas
+- **Linguagens**: JavaScript, TypeScript  
+- **Framework**: NestJS  
+- **Banco de Dados**: MySQL  
+- **Autenticação e Segurança**: Passport, JWT, Bcrypt  
+- **Testes**: Jest, Insomnia  
+- **Documentação**: Swagger  
+- **Deploy**: Render  
 
-# watch mode
-$ npm run start:dev
+---
 
-# production mode
-$ npm run start:prod
-```
+## Blog Pessoal
 
-## Test
+![<Swagger-postagem>](<img width="881" alt="Swagger" src="https://github.com/user-attachments/assets/fdb86147-c5d4-4d79-bfe8-1b59d49d628c" />)
+![<Swagger-usuário>](<img width="881" alt="swagger usuario" src="https://github.com/user-attachments/assets/836d1295-42f9-4400-8925-6f424913784c" />)
+![<Swagger-temas>](<img width="887" alt="swagger temas" src="https://github.com/user-attachments/assets/adf0ff5b-6552-4df1-8f3e-6f147651e8e3" />)
 
-```bash
-# unit tests
-$ npm run test
+---
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+## Confira o Frontend
+Repositório do frontend: [Blog Pessoal - Frontend](https://github.com/lidskey/blogpessoal-react)
