@@ -8,8 +8,8 @@ Este repositório contém o backend do projeto Blog Pessoal, desenvolvido durant
 
 O backend do Blog Pessoal oferece suporte completo para uma aplicação de gerenciamento de conteúdo, incluindo:
 
-- ** Gerenciamento de usuários com autenticação e autorização via JWT.
-- ** Operações CRUD completas para postagens de blog.
+- Gerenciamento de usuários com autenticação e autorização via JWT.
+- Operações CRUD completas para postagens de blog.
 
 Os testes de funcionalidade foram realizados utilizando Insomnia para CRUD e Jest para testes E2E. A documentação do projeto foi gerada com Swagger, e o deploy foi realizado na plataforma Render.
 
